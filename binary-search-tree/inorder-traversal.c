@@ -7,19 +7,6 @@ typedef struct Node {
     struct Node* right;
 }Node;
 
-
-Node* getNewNode(int number) {
-    Node* newNode = (Node*)malloc(sizeof(Node));
-
-    newNode->data = number;
-
-    newNode->left = NULL;
-    newNode->right = NULL;
-
-    return newNode;
-}
-
-
 void inorderTraversal(Node* root) {
     // Exit statement and exception handle.
     if(root == NULL) {
