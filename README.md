@@ -1,3 +1,3 @@
 # Disclaimer
 
-> This repository is for share my process learning.
+> This repository was made to share my process learning.
